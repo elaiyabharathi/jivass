@@ -1,0 +1,38 @@
+========================================================================DATA MODELS============================================================================
+
+
+User : {
+			username :"",
+			name : "",
+			interested_sellingitems: [],
+			interested_buyingitems: [],
+			openauctions:[], (bid id mapping)
+			closedauctions:[] (bid id mapping)
+			kyc: "",			
+		}
+
+transporters : {
+	
+		}
+
+auction: {
+			id : "",
+			name : "",
+			minprice : "",
+			maxprice : "",
+			descriptionoftheitem : "",
+			timeofauction: <time>,
+			isOpen : boolean,
+			chosen_bid : [{userid:"",bidamount:""}],
+			postAuctionInfo : {information about post auction and user}
+		}
+
+auction_history: {
+			auctionid: "",
+			history_of_bids: [
+								  {
+                    userid:"",
+								    bidamount: ""
+                    }
+							]
+		}
