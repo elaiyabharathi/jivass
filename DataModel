@@ -29,10 +29,8 @@ auction: {
 
 auction_history: {
 			auctionid: "",
-			history_of_bids: [
-								  {
-                    userid:"",
-								    bidamount: ""
-                    }
-							]
+			history_of_bids: [  {   userid:"",
+					         bidamount: ""
+						 }
+					]
 		}
